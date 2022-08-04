@@ -1,8 +1,15 @@
-import React from 'react'
+import UserResults from '../users/UserResults'
+import UserSearch from '../users/UserSearch'
 
 const Home = () => {
+
   return (
-    <h1 className='text-6xl'>Welcome</h1>
+    <>
+      {/* Search Component */}
+      <UserSearch/>
+      <UserResults />
+
+    </>
   )
 }
 
